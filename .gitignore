@@ -1,0 +1,30 @@
+# Node modules
+node_modules/
+
+# Cypress downloads and reports
+cypress/downloads/
+cypress/screenshots/
+cypress/videos/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Environment files
+.env
+.env.*.local
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# JetBrains IDEs (WebStorm, IntelliJ)
+.idea/
+
+# Optional: VSCode settings
+.vscode/
+
+# Build output (if applicable)
+dist/
+build/

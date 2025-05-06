@@ -1,0 +1,15 @@
+describe("Add_Remove Element", () => {
+    it("Add Element", () => {
+        cy.visit("https://the-internet.herokuapp.com/add_remove_elements/")
+        cy.get(".example>button").click()
+        cy.get("#elements button")
+            .should("have.length", 1)
+            .and("be.visible")
+            .and("contain.text", "Delete")
+        cy.get("#elements button").click()
+        cy.get(".example>button")
+            .should("have.length",1)
+            .and("be.visible")
+            .and("contain.text","Add Element")
+    })
+})
