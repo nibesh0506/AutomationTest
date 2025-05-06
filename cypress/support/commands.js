@@ -26,3 +26,4 @@
 
 import '@4tw/cypress-drag-drop'
 import 'cypress-downloadfile/lib/downloadFileCommand'
+import 'cypress-real-events/support'
